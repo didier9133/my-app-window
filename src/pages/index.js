@@ -17,6 +17,9 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
+          <Link href={"/about"}>
+            <div>About</div>
+          </Link>
           <p>
             hola! desde window Get started by editing&nbsp;
             <code className={styles.code}>src/pages/index.js</code>
